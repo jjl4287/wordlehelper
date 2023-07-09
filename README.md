@@ -53,8 +53,8 @@ To run this program, follow these steps:
 1. Clone the repository or download the source code.
 2. Navigate to the directory containing the source code.
 3. Compile the program using a C compiler. For instance, using gcc:
-    gcc wordlehelper.c -o wordlehelper
+    ```gcc wordlehelper.c -o wordlehelper```
 4. Run the program:
-    ./wordlehelper
+    ```./wordlehelper```
 5. Follow the prompts to input grey, yellow, and green characters as per your Wordle game state. The program will output a list of possible words for each round of input.
 Remember to ensure that you have the correct permissions to read from and write to the necessary files and that the dictionary file is located in the expected path or adjust the path in the program accordingly.
